@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_formulario">FormularioActivity</string>
+    <string name="nome">Nome:</string>
+    <string name="site">Site:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="nota">Nota:</string>
+    <string name="digNome">Digite o seu Nome:</string>
+    <string name="digSite">Digite o seu Site:</string>
+    <string name="digEndereco">Digite o seu Endereço:</string>
+    <string name="digTelefone">Digite o seu Telefone:</string>
+    <string name="inserir">Inserir</string>
+    <string name="foto">Foto</string>
+
+</resources>
