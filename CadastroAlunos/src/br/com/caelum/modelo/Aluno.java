@@ -1,23 +1,29 @@
 package br.com.caelum.modelo;
 
-public class Aluno {
+import java.io.Serializable;
+
+public class Aluno implements Serializable {
 	
-	private long id;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3372152757390945475L;
+	private Long id;
 	private String nome;
 	private String telefone;
 	private String endereco;
 	private String site;
 	private String foto;
-	private double nota;
+	private Double nota;
 	
 	public String toString(){
 		return id + " - " + nome;
 	}
 	
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getNome() {
@@ -50,10 +56,10 @@ public class Aluno {
 	public void setFoto(String foto) {
 		this.foto = foto;
 	}
-	public double getNota() {
+	public Double getNota() {
 		return nota;
 	}
-	public void setNota(double nota) {
+	public void setNota(Double nota) {
 		this.nota = nota;
 	}
 	
